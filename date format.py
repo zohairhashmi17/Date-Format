@@ -15,6 +15,8 @@ if date_format =='first':
             max_days=30
         elif(mm==2):
             max_days=28
+        if(max_days<2 or max_days>2):
+            print("Day is invalid as per the date format.")
         elif(mm<1 or mm>12):
             print("Date is invalid,error in months.")
         elif (len(yy)>2):
@@ -37,6 +39,8 @@ else:
             max_days=30
         elif(mm==2):
             max_days=28
+        if(max_days<2 or max_days>2):
+            print("Day is invalid as per the date format")
         elif(mm<1 or mm>12):
             print("Date is invalid,error in months.")
         elif(len(yy)>2):
