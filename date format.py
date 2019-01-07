@@ -8,7 +8,7 @@ if date_format =='first':
         dd,mm,yy=date.split('-')
         dd=int(dd)
         mm=int(mm)
-        yy=int(yy)
+        yy=str(yy)
         if(mm==1 or mm==3 or mm==5 or mm==7 or mm==8 or mm==10 or mm==12):
             max_days=31
         elif(mm==4 or mm==6 or mm==9 or mm==11):
